@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shane.fun/The Roast Game</title>
+    <style>
+        body {
+            color: red;
+            margin: 200px 0 0 9px; /* Top margin: 200px, left margin: 250px */
+            font-family: 'Snell Roundhand', cursive; /* Fallback to cursive if the font is not available */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align title */
+            background-image: url('imagesi.jpg'); /* Added background image */
+        }
+
+        h1 {
+            font-size: 100px; /* Set the font size to 100 */
+            font-weight: bold; /* Make the text bold */
+            margin-bottom: 30px; /* Add some space below the heading */
+        }
+
+        .button-container {
+            display: flex; /* Use flexbox for button layout */
+            justify-content: space-between; /* Distribute space equally between buttons */
+            width: 100%;  /* Full width for the button container */
+            max-width: 800px; /* Limit the size of the button container */
+        }
+
+        button {
+            padding: 15px 30px; /* Increase size of button */
+            font-size: 20px; /* Increase text size on the button */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            border: none; /* Remove default borders */
+            border-radius: 5px; /* Rounded corners */
+            background-color: orange; /* Background color of the button */
+            color: black; /* Text color */
+            min-width: 100px; /* Minimum width for buttons */
+        }
+
+        button:hover {
+            background-color: lightgray; /* Change background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Pick the level</h1>
+    <div class="button-container">
+        <button onclick="goToWebsite1()">Easy</button>
+        <button onclick="goToWebsite2()">Medium</button>
+        <button onclick="goToWebsite3()">Hard</button>
+    </div>
+    
+    <script>
+        function goToWebsite1() {
+            window.location.href = "/Users/FirozKhan/Desktop/untitled folder 2/Untitled-5.HTML"; // Redirect for Easy
+        }
+
+        function goToWebsite2() {
+            window.location.href = "/Users/FirozKhan/Desktop/untitled folder 2/untitled-2.html"; // Redirect for Medium
+        }
+
+        function goToWebsite3() {
+            window.location.href = "/Users/FirozKhan/Desktop/untitled folder 2/untitled-3.html"; // Redirect for Hard
+        }
+    </script>
+</body>
+</html>
