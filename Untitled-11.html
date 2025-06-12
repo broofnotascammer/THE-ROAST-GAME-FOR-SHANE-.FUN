@@ -1,51 +1,79 @@
-<!doctype=html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Roast Bot! Get ready for hilarious and humorous insults.">
-    <title>Winner RoastBot </title>
-    <style>
-        body {
-            color: red;
-            background-image: url('imagesi.jpg'); /* Ensure this path is correct */
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Welcome to the Roast Bot! Get ready for hilarious and humorous insults." />
+<title>Winner RoastBot</title>
+<style>
+    body {
+        color: red;
+        background-image: url('imagesi.jpg'); /* Ensure this path is correct */
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        padding: 50px 20px;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+    }
+    h1 {
+        margin-top: 50px;
+        font-size: 9em;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+        animation-delay: 0.5s;
+    }
+    .button {
+        display: inline-block;
+        padding: 12px 60px;
+        font-size: 16px;
+        color: white;
+        background-color: red;
+        margin: 20px 10px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+        animation-delay: 1s;
+        transition: transform 0.3s, background-color 0.3s;
+    }
+    .button:hover {
+        background-color: dimgrey;
+        transform: scale(1.05);
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    @media(max-width: 600px) {
         .button {
-            display: inline-block;
-            padding: 12px 200px;
-            font-size: 16px;
-            color: white; /* Button text color */
-            background-color: red; /* Button color */
-            margin: 10px; /* Spacing between buttons */
-            text-align: center;
-            text-decoration: none; /* Remove underline */
-            border-radius: 5px; /* Rounded corners */
-            border: none; /* Remove border */
-            cursor: pointer; /* Pointer cursor on hover */
+            font-size: 14px;
+            padding: 10px 20px;
         }
-
-        .button:hover {
-            background-color: dimgrey; /* Darker shade on hover */
-        }
-
         h1 {
-            margin-top: 50px;
+            font-size: 29em;
         }
-        
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            .button {
-                font-size: 14px; /* Smaller font on mobile */
-                padding: 10px; /* Less padding */
-            }
-        }
-    </style>
-</head><body>
-    <H1>You Lose The Game<br>I Win The Game </H1><br><a href="Untitled-1.html" class="button" target="_blank">RESTART</a><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>;
-    </BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR></BR>
-    </BR><A HREF="Untitled-5.html" class="button" target="_blank">Secret Lifeline</A>
-    
-    </body></html>
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>You Lose The Game<br>I Win The Game</h1>
+    <br><br><br><br><br><br><br><br>
+    <a href="Untitled-1.html" class="button" target="_blank">RESTART</a>
+    <div style="margin-top: 50px;">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a href="Untitled-6.html" class="button" target="_blank">Secret Lifeline</a>
+    </div>
+</div>
+</body>
+</html>
